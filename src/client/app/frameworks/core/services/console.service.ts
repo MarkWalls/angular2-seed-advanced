@@ -1,6 +1,8 @@
-import {Injectable} from '@angular/core';
+// angular
+import { Injectable } from '@angular/core';
 
-import {IConsole} from '../interfaces/iconsole';
+// module
+import { IConsole } from '../interfaces/iconsole';
 
 @Injectable()
 export class ConsoleService implements IConsole {

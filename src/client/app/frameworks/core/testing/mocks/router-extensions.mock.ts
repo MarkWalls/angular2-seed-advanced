@@ -1,11 +1,13 @@
-import {Injectable} from '@angular/core';
-import {UrlTree} from '@angular/router';
+// angular
+import { Injectable } from '@angular/core';
+import { UrlTree } from '@angular/router';
 
-import {IRouterExtensions, ExtendedNavigationExtras} from '../../index';
+// module
+import { IRouterExtensions, ExtendedNavigationExtras } from '../../index';
 
 @Injectable()
 export class RouterExtensionsMock implements IRouterExtensions {
-  navigate(commands: any[], extras?: ExtendedNavigationExtras): Promise<boolean> {
+  navigate(commands: Array<any>, extras?: ExtendedNavigationExtras): Promise<boolean> {
     return Promise.resolve(true);
   }
 

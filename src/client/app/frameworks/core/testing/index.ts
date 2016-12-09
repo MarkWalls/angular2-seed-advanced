@@ -1,4 +1,4 @@
-export * from './mocks/store.mock';
+// mocks
 export * from './mocks/window.mock';
 
 // providers
